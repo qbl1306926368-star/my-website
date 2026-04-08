@@ -923,9 +923,9 @@ const douyinVideoList: Video[] = [
 ];
 
 const aiVideoList: Video[] = [
-  { title: "AI广告片", duration: "7:00", link: "#", thumbnail: "/5.png" },
-  { title: "AI动漫短片创作分享", duration: "10:30", link: "#", thumbnail: "/4.png" },
-  { title: "AI高奢侈广告", duration: "4:10", link: "#", thumbnail: "/6.png" },
+  { title: "AI广告片", duration: "7:00", link: "https://www.bilibili.com/video/BV179XnBHEhv/?share_source=copy_web&vd_source=14685046db3a66d9d2d9ef43266ab8f1", thumbnail: "/5.png" },
+  { title: "AI动漫短片创作分享", duration: "10:30", link: "https://www.bilibili.com/video/BV1zDXnBWEwr/?share_source=copy_web&vd_source=14685046db3a66d9d2d9ef43266ab8f1", thumbnail: "/4.png" },
+  { title: "AI高奢侈广告", duration: "4:10", link: "https://www.bilibili.com/video/BV1VTXWBnEGX/?share_source=copy_web&vd_source=14685046db3a66d9d2d9ef43266ab8f1", thumbnail: "/6.png" },
 ];
 
 export default function App() {
