@@ -97,7 +97,7 @@ function Hero({ setShowContactModal, setActiveTab }: { setShowContactModal: (sho
       </div>
       <div className="relative flex justify-center">
         <div className="bg-brand-yellow brutal-border rounded-[2rem] aspect-square w-full max-w-[420px] brutal-shadow relative overflow-hidden flex items-end justify-center">
-          <img src="src/assets/123.png" alt="Profile" className="w-full h-full object-cover absolute bottom-0 transition-transform duration-300 hover:scale-105" />
+          <img src="/123.png" alt="Profile" className="w-full h-full object-cover absolute bottom-0 transition-transform duration-300 hover:scale-105" />
         </div>
         <div className="absolute top-1/2 -left-6 bg-white p-2 rounded-xl brutal-border brutal-shadow-sm transform -rotate-12 animate-bounce">
           <MousePointer2 size={28} className="text-brand-dark fill-brand-dark" />
@@ -650,16 +650,16 @@ function VibeWorkshop() {
   const products = [
     {
       type: 'showcase',
-      mainImage: 'src/assets/7.jpg',
-      thumbnails: ['src/assets/7.jpg', 'src/assets/8.jpg', 'src/assets/9.jpg', 'src/assets/10.png', 'src/assets/11.png'],
+      mainImage: '/7.jpg',
+      thumbnails: ['/7.jpg', '/8.jpg', '/9.jpg', '/10.png', '/11.png'],
       projectName: '彩虹之家网上购物商城',
       techStack: ['#Vue', '#SpringBoot', '#全栈开发'],
       description: '这是一个基于Vue和SpringBoot的全栈网上购物商城项目。它包含了用户管理、商品浏览、购物车、订单处理、支付集成等核心功能。致力于提供流畅的用户体验和稳定的后台服务。'
     },
     {
       type: 'appConceptShowcase',
-      initialImage: 'src/assets/12.png',
-      hoverImage: 'src/assets/13.png',
+      initialImage: '/12.png',
+      hoverImage: '/13.png',
       title: 'MindJournal 灵感手记--App概念原型',
       subtitle: '用创意工具解决灵感焦虑',
       problem: '碎片化的灵感难以留存和整理。',
@@ -773,7 +773,7 @@ function About() {
           </div>
           <div className="flex justify-center">
             <div className="w-full max-w-sm aspect-square bg-white brutal-border rounded-2xl brutal-shadow transform rotate-3 flex items-center justify-center overflow-hidden">
-              <img src="src/assets/Gemini_Generated_Image_i6l22hi6l22hi6l2.png" alt="ID Card" className="w-full h-full object-cover" />
+              <img src="/Gemini_Generated_Image_i6l22hi6l22hi6l2.png" alt="ID Card" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -795,9 +795,9 @@ function Articles() {
         {[1, 2, 3, 4].map((i) => (
           <div key={i} className="bg-white brutal-border rounded-2xl p-6 brutal-shadow hover:-translate-y-2 transition-transform duration-300">
             {i === 1 ? (
-              <img src="src/assets/data_report.png" alt="Data Report" className="w-full h-auto object-cover rounded-lg" />
+              <img src="/data_report.png" alt="Data Report" className="w-full h-auto object-cover rounded-lg" />
             ) : i === 3 ? (
-              <img src="src/assets/图片3.png" alt="Image 3" className="w-full h-auto object-cover rounded-lg" />
+              <img src="/图片3.png" alt="Image 3" className="w-full h-auto object-cover rounded-lg" />
             ) : i === 2 ? (
               <>
                 <div className="flex items-center gap-3 mb-4">
@@ -906,26 +906,26 @@ const douyinVideoList: Video[] = [
     title: "先完成再完美的作品】AI时代，如何打造不可替代的核心竞争力",
     duration: "1:07",
     link: "https://v.douyin.com/rCzuJyJ1fvY/",
-    thumbnail: "src/assets/1.jpg",
+    thumbnail: "/1.jpg",
   },
   {
     title: "先完成再完美的作品】# 阅读分享 # 提升自己 # 长期主义 # 纳瓦...",
     duration: "9:48",
     link: "https://v.douyin.com/5HiegHyGZ1A/",
-    thumbnail: "src/assets/2.jpg",
+    thumbnail: "/2.jpg",
   },
   {
     title: "先完成再完美的作品】坚持写成功日记，人生真的会变顺# 成功日记 # 正...",
     duration: "3:33",
     link: "https://v.douyin.com/4fZA1o0AYXw/",
-    thumbnail: "src/assets/3.jpg",
+    thumbnail: "/3.jpg",
   },
 ];
 
 const aiVideoList: Video[] = [
-  { title: "AI广告片", duration: "7:00", link: "#", thumbnail: "src/assets/5.png" },
-  { title: "AI动漫短片创作分享", duration: "10:30", link: "#", thumbnail: "src/assets/4.png" },
-  { title: "AI高奢侈广告", duration: "4:10", link: "#", thumbnail: "src/assets/6.png" },
+  { title: "AI广告片", duration: "7:00", link: "#", thumbnail: "/5.png" },
+  { title: "AI动漫短片创作分享", duration: "10:30", link: "#", thumbnail: "/4.png" },
+  { title: "AI高奢侈广告", duration: "4:10", link: "#", thumbnail: "/6.png" },
 ];
 
 export default function App() {
